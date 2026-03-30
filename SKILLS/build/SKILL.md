@@ -1,8 +1,6 @@
 ---
 name: build
 description: build
-risk: unknown
-source: community
 ---
 
 ---

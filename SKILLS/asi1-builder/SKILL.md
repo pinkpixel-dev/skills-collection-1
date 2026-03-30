@@ -1,13 +1,6 @@
 ---
 name: asi1-builder
-description: >
-  Complete reference and build guide for ASI:One (ASI1) — the AI platform by Fetch.ai built for agentic, Web3-native applications.
-  Use this skill IMMEDIATELY and ALWAYS when the user mentions ASI1, ASI:One, Fetch.ai AI API, building with ASI1, integrating ASI:One,
-  asking about ASI1 models, tool calling with ASI1, ASI1 image generation, ASI1 agentic LLM, Agentverse, uagents, Agent Chat Protocol,
-  structured output with ASI1, or OpenAI-compatible wrappers for ASI1. Also trigger when the user says things like "use ASI1 instead of OpenAI",
-  "build an app with ASI:One", "ASI1 API", or references docs.asi1.ai. This skill covers everything needed to build production apps:
-  setup, all models, all API features, tool calling, image gen, agentic orchestration, structured data, session management, streaming,
-  LangChain integration, uagents / Agent Chat Protocol, and TypeScript/Node.js patterns.
+description: Complete reference and build guide for ASI:One (ASI1) — the AI platform by Fetch.ai built for agentic, Web3-native applications. Use this skill IMMEDIATELY and ALWAYS when the user mentions ASI1, ASI:One, Fetch.ai AI API, building with ASI1, integrating ASI:One, asking about ASI1 models, tool calling with ASI1, ASI1 image generation, ASI1 agentic LLM, Agentverse, uagents, Agent Chat Protocol, structured output with ASI1, or OpenAI-compatible wrappers for ASI1. Also trigger when the user says things like "use ASI1 instead of OpenAI", "build an app with ASI:One", "ASI1 API", or references docs.asi1.ai. This skill covers everything needed to build production apps - setup, all models, all API features, tool calling, image gen, agentic orchestration, structured data, session management, streaming, LangChain integration, uagents / Agent Chat Protocol, and TypeScript/Node.js patterns.
 ---
 
 # ASI:One (ASI1) Builder Skill
