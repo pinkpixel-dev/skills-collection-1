@@ -1,0 +1,4 @@
+interface:
+  display_name: "Electron App Builder"
+  short_description: "Build polished Electron desktop app shells"
+  default_prompt: "Use $electron-app-builder to create a production-grade Electron desktop app shell with secure IPC and packaging."
