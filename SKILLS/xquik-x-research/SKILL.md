@@ -56,9 +56,11 @@ Use the Xquik API key header and the exact path from the schema:
 
 ```bash
 BASE_URL="${XQUIK_BASE_URL:-https://xquik.com}"
-export XQUIK_QUERY="${XQUIK_QUERY:-QUERY}"
+XQUIK_PATH="${XQUIK_PATH:?Set this from the OpenAPI path}"
+XQUIK_QUERY_PARAM="${XQUIK_QUERY_PARAM:?Set this from the OpenAPI query parameter}"
+XQUIK_QUERY="${XQUIK_QUERY:?Set this from the research topic}"
 QUERY_ENCODED="$(python3 -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["XQUIK_QUERY"]))')"
-curl -sS "$BASE_URL/api/v1/x/tweets/search?q=$QUERY_ENCODED&limit=25" -H "x-api-key: $XQUIK_API_KEY"
+curl -sS "$BASE_URL$XQUIK_PATH?$XQUIK_QUERY_PARAM=$QUERY_ENCODED" -H "x-api-key: $XQUIK_API_KEY"
 ```
 
 For broad topics, start with tweet search or trends. For account-specific work, use profile lookup first, then timeline routes. For recurring needs, propose monitors only after a successful one-time read.
